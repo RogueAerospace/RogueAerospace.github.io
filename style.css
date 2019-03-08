@@ -11,8 +11,7 @@ body {
   }
   h2 {
       font-size: 24px;
-
-      color: #303030;
+      color: #fff;
       font-weight: 600;
       margin-bottom: 30px;
   }
@@ -137,7 +136,7 @@ body {
   footer .glyphicon {
       font-size: 20px;
       margin-bottom: 20px;
-      color: #ADD8E6;
+      color: #ff5349;
   }
   .slideanim {visibility:hidden;}
   .slide {

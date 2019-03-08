@@ -1,7 +1,7 @@
 #home{
-  background: url(header.jpg) no-repeat center center fixed;
+  background: url(header2.png) no-repeat center center fixed;
   height: 750px;
-  width: 100%;
+  width: auto;
 }
 
 body {
@@ -87,7 +87,7 @@ body {
   }
 
   .panel-heading {
-      color: #fff !important;
+      color: #000 !important;
       background-color: #ADD8E6 !important;
       padding: 25px;
       border-bottom: 1px solid transparent;
@@ -113,7 +113,7 @@ body {
   }
   .navbar {
       margin-bottom: 0;
-      background-color: #000;
+      background-color: #31363a;
       z-index: 9999;
       border: 0;
       font-size: 12px !important;
@@ -127,7 +127,7 @@ body {
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
       color: # !important;
-      background-color: #ff5349 !important;
+      background-color: #f05a28 !important;
   }
   .navbar-default .navbar-toggle {
       border-color: transparent;
@@ -136,7 +136,7 @@ body {
   footer .glyphicon {
       font-size: 20px;
       margin-bottom: 20px;
-      color: #ff5349;
+      color: #f05a28;
   }
   .slideanim {visibility:hidden;}
   .slide {

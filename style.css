@@ -147,9 +147,22 @@ body {
       visibility: visible;
   }
 
+.progress-bar-success{
+  background-color: #1b75bb;
+
+}
 
 
+.progress-bar-info{
+  background-color: #15a6e4;
 
+}
+
+
+.progress-bar-warning{
+  background-color: #9bd8ff;
+
+}
   @keyframes slide {
     0% {
       opacity: 0;

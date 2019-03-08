@@ -149,18 +149,15 @@ body {
 
 .progress-bar-success{
   background-color: #1b75bb;
-
 }
-
-
 .progress-bar-info{
   background-color: #15a6e4;
-
 }
-
-
 .progress-bar-warning{
   background-color: #9bd8ff;
+}
+.progress-bar-danger{
+  background-color: #f05a28;
 
 }
   @keyframes slide {

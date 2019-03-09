@@ -54,13 +54,13 @@ body {
   }
   .carousel-control.right, .carousel-control.left {
       background-image: none;
-      color: #ADD8E6;
+      color: #f05a28;
   }
   .carousel-indicators li {
-      border-color: #ADD8E6;
+      border-color: #f05a28;
   }
   .carousel-indicators li.active {
-      background-color: #ADD8E6;
+      background-color: #f05a28;
   }
   .item h4 {
       font-size: 19px;

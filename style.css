@@ -1,5 +1,5 @@
 #home{
-  background: url(header2.png) no-repeat center center fixed;
+  background: url(images/header2.png) no-repeat center center fixed;
   height: 750px;
   width: auto;
 }
@@ -20,7 +20,7 @@ body {
       line-height: 1.375em;
       color: #303030;
       font-weight: 400;
-      margin-bottom: 30px;
+      
   }
   .jumbotron {
       background-color: #ADD8E6;
@@ -31,6 +31,12 @@ body {
   .container-fluid {
       padding: 60px 50px;
   }
+
+.img-circle{
+width:250px;
+
+}
+
   .bg-grey {
       background-color: #f6f6f6;
   }

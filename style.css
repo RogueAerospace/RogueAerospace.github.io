@@ -1,24 +1,30 @@
 #home{
-  background: url(images/header2.png) no-repeat center center fixed;
+  background: url(images/screenshot.png) no-repeat center center fixed;
   height: 750px;
   width: auto;
 }
 
 body {
       font: 400 15px Lato, sans-serif;
+
       line-height: 1.8;
       color: #818181;
   }
   h2 {
+    font-family: Impact;
       font-size: 24px;
-      color: #fff;
+      color: #f2a277;
       font-weight: 600;
-      margin-bottom: 30px;
+
+  }
+  blockquote{
+    color: #ff5654;
+    font-size: 20px;
   }
   h4 {
       font-size: 19px;
-      line-height: 1.375em;
-      color: #303030;
+
+      color: #fff;
       font-weight: 400;
 
   }
@@ -38,7 +44,7 @@ width:200px;
 }
 
   .bg-grey {
-      background-color: #f6f6f6;
+      background-color: #0c2333;
   }
   .logo-small {
       color: #ADD8E6;
@@ -60,13 +66,13 @@ width:200px;
   }
   .carousel-control.right, .carousel-control.left {
       background-image: none;
-      color: #f05a28;
+      color: #99ffee;
   }
   .carousel-indicators li {
-      border-color: #f05a28;
+      border-color: #99ffee;
   }
   .carousel-indicators li.active {
-      background-color: #f05a28;
+      background-color: #99ffee;
   }
   .item h4 {
       font-size: 19px;
@@ -118,8 +124,9 @@ width:200px;
       color: #fff;
   }
   .navbar {
+      font-weight: bold;
       margin-bottom: 0;
-      background-color: #31363a;
+      background-color: #0c2333;
       z-index: 9999;
       border: 0;
       font-size: 12px !important;
@@ -132,8 +139,9 @@ width:200px;
       color: #fff !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-      color: # !important;
-      background-color: #f05a28 !important;
+      color: #0c2333 !important;
+      background-color: #99ffee !important;
+
   }
   .navbar-default .navbar-toggle {
       border-color: transparent;
@@ -142,7 +150,7 @@ width:200px;
   footer .glyphicon {
       font-size: 20px;
       margin-bottom: 20px;
-      color: #f05a28;
+      color: #99ffee;
   }
   .slideanim {visibility:hidden;}
   .slide {
@@ -163,7 +171,7 @@ width:200px;
   background-color: #9bd8ff;
 }
 .progress-bar-danger{
-  background-color: #f05a28;
+  background-color: #99ffee;
 
 }
   @keyframes slide {

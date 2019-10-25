@@ -4,22 +4,79 @@
   width: auto;
 }
 
+/* Container holding the image and the text */
+.container-box {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 0px;
+  background-color: white;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right:0;
+}
+
+.fa {
+  padding-right: 30px;
+  font-size: 30px;
+
+  width: 25px;
+
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  color: white;
+}
+
+
+
 body {
-      font: 400 15px Lato, sans-serif;
+      font: 400 15px Trebuchet, Helvetica, sans-serif;
 
       line-height: 1.8;
       color: #818181;
   }
   h2 {
-    font-family: Impact;
+    font-family: Impact,  sans-serif;
       font-size: 24px;
       color: #f2a277;
       font-weight: 600;
 
   }
-  blockquote{
+
+  h3{
     color: #ff5654;
     font-size: 20px;
+    font-weight:bold;
+    line-height: 15px;
+  }
+  blockquote{
+
+    color:#99ffee;
+    font-size:20px;
+    font-style: italic;
+    font-weight: bold;
+
   }
   h4 {
       font-size: 19px;
@@ -27,6 +84,12 @@ body {
       color: #fff;
       font-weight: 400;
 
+  }
+  h5{
+    font-size: 15px;
+    font-family: "Lucida Console", Monaco, monospace;
+    color: #000;
+    font-weight: 400;
   }
   .jumbotron {
       background-color: #ADD8E6;
@@ -67,6 +130,7 @@ width:200px;
   .carousel-control.right, .carousel-control.left {
       background-image: none;
       color: #99ffee;
+      bottom: 30%;
   }
   .carousel-indicators li {
       border-color: #99ffee;
@@ -83,6 +147,10 @@ width:200px;
   }
   .item span {
       font-style: normal;
+  }
+
+  .item active{
+
   }
   .panel {
       border: 1px solid #ADD8E6;

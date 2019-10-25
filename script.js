@@ -1,4 +1,11 @@
+
+
 $(document).ready(function(){
+
+
+
+
+
   // Add smooth scrolling to all links in navbar + footer link
   $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
@@ -19,6 +26,11 @@ $(document).ready(function(){
         window.location.hash = hash;
       });
     } // End if
+
+
+
+
+
   });
 
   $(window).scroll(function() {
@@ -30,5 +42,13 @@ $(document).ready(function(){
           $(this).addClass("slide");
         }
     });
+
+
+
+
+
   });
+
+
+
 })

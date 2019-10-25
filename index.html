@@ -59,13 +59,13 @@
     <div class="col-sm-7">
       <!--<h2 style="text-align: center;"><span style="color:#f2a277;">ABOUT ROGUE AEROSPACE</span></h2><br>-->
 			<blockquote>“I had a huge passion for rocketry my freshmen year, but there was no team or club that could fill that gap at the time, so I thought, why not make one?" - Jefferson Hu</blockquote>
-			<h3 ><a style="color: #FFF">WHY</a> NYU ROGUE AEROSPACE?</h3>
+			<h3 ><a style="color: #FFF; text-decoration: None;">WHY</a> NYU ROGUE AEROSPACE?</h3>
       <h4 style="text-align: justify;">
 
 	Rogue Aerospace is New York University’s only rocketry association dedicated to the advancement and exploration of aerospace. We are a student organization that seeks to educate and provide hands-on experience in engineering, design, and project management for students of all disciplines and skills. From mechatronics, to CAD, to dynamics simulation software, our team is at the forefront of aerospace innovation at NYU. We are one of the fastest growing teams at NYU Tandon and have gained significant recognition on campus, competing with even the oldest and established of teams. As a Vertically Integrated Program, we give students the opportunity to participate in research and design with hands on experience in rocketry and aerospace engineering while receiving course credit."
 </h4>
 </br>
-<h3><a style="color: #FFF">WHAT</a> DO WE DO? </h3>
+<h3><a style="color: #FFF;text-decoration: None;">WHAT</a> DO WE DO? </h3>
 <h4 style="text-align: justify;">
 	We seek to design, build, launch, and analyze reusable rockets, giving students hands-on exposure and experience in the rapidly evolving aerospace industry. Next spring we have the honor of representing NYU at Battle of the Rockets, a prestigious rocketry competition that draws the most elite and competitive aerospace teams from across the nation. During this competition, students are challenged to design and construct not only a rocket, but also a rover designed to mimic NASA’s Curiosity Mars rover. As a multidisciplinary team, we focus on all aspects of aerospace, from engineering, to finance, to marketing, and even policy.
 
@@ -177,7 +177,8 @@
   </div>
 </div>
 <div class="col-sm-7">
-<h2><span style="color:#f2a277;">OUR STORY</span></h2></br>
+<!--<h2><span style="color:#f2a277;">OUR STORY</span></h2></br>-->
+<h3><a style="color: #FFF;text-decoration: None;">OUR</a> STORY </h3>
 <h4 style="text-align: justify;">
 Rogue Aerospace was founded by 4 people with big dreams and even bigger rockets. We saw that NYU did not have a large scale rocketry team, and we sought to change that. Our first steps were to establish ourselves as professional rocketeers, with 8 members with High Powered Rocketry, or HPR certification. As of Fall 2019, all 8 members have HPR 1 certification, with one member having HPR 2 certification.
 </br>
@@ -191,14 +192,15 @@ Our passion for rocketry cannot be said in words but in actions, and Rogue Aeros
 </div>
 
 
-
+</div>
 
 </div>
 
 
 
 <div id="portfolio" class="container-fluid text-center">
-  <h2><span style="color:#f2a277;">MEET THE TEAM</span></h2>
+  <!--<h2><span style="color:#f2a277;">MEET THE TEAM</span></h2>-->
+	<h3><a style="color: #FFF;text-decoration: None;text-align:center;">MEET</a> OUR EBOARD </h3>
   <br>
   <div class="row slideanim">
     <div class="col-sm-3">
@@ -275,7 +277,8 @@ Our passion for rocketry cannot be said in words but in actions, and Rogue Aeros
 
 <div id="timeline" class="container-fluid bg-grey slideanim">
 	<div class="row slideanim">
-		<h2 style="text-align:center;">TIMELINE</h2>
+		<!--<h2 style="text-align:center;">TIMELINE</h2>-->
+		<h3 style="text-align:center"><a style="color: #FFF;text-decoration: None;text-align:center;">SEE</a> OUR TIMELINE </h3>
 <img src="images/Timeline.png" style="max-height: 100%;max-width: 100%;" alt="Timeline Chart">
 	</div>
   <!--<div class="row">
@@ -329,7 +332,8 @@ Our passion for rocketry cannot be said in words but in actions, and Rogue Aeros
 
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey">
-  <h2 class="text-center"><span style="color:#f2a277;">CONTACT US</span></h2></br>
+  <!--<h2 class="text-center"><span style="color:#f2a277;">CONTACT US</span></h2></br>-->
+	<h3 style="text-align:center"><a style="color: #FFF;text-decoration: None; text-align:center;">CONTACT</a> US </h3>
   <div class="row slideanim">
 		<div class="col-sm-3" style="color: #fff;">
 	<form action="mailto:rogueaeronyc@gmail.com" method="post" enctype="text/plain">
@@ -371,6 +375,37 @@ Our passion for rocketry cannot be said in words but in actions, and Rogue Aeros
   </a>
 
 </footer>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
 
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
 
 </html>

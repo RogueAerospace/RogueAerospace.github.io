@@ -167,7 +167,7 @@ body {
   }
   blockquote{
 
-    color:#287899;
+    color:#34b0e3;
     font-size:20px;
     font-style: italic;
     font-weight: bold;
@@ -224,14 +224,14 @@ width:200px;
   }
   .carousel-control.right, .carousel-control.left {
       background-image: none;
-      color: #287899;
+      color: #34b0e3;
       bottom: 30%;
   }
   .carousel-indicators li {
-      border-color: #287899;
+      border-color: #34b0e3;
   }
   .carousel-indicators li.active {
-      background-color: #287899;
+      background-color: #34b0e3;
   }
   .item h4 {
       font-size: 19px;
@@ -303,7 +303,7 @@ width:200px;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
       color: #141c21 !important;
-      background-color: #287899 !important;
+      background-color: #34b0e3 !important;
 
   }
   .navbar-default .navbar-toggle {
@@ -313,7 +313,7 @@ width:200px;
   footer .glyphicon {
       font-size: 20px;
       margin-bottom: 20px;
-      color: #287899;
+      color: #34b0e3;
   }
   .slideanim {visibility:hidden;}
   .slide {
@@ -334,7 +334,7 @@ width:200px;
   background-color: #9bd8ff;
 }
 .progress-bar-danger{
-  background-color: #287899;
+  background-color: #34b0e3;
 
 }
   @keyframes slide {
